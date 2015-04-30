@@ -1,0 +1,139 @@
+@colorRed : rgb(105, 0, 14);
+@colorBlack: rgb(1, 1, 1);
+@colorMediumRed: #B48086;
+@colorLightRed: #D5B8B8;
+
+@colorPrimary: #160B0B;
+@secondaryLight: #383636;
+@secondaryDark: #1A1212;
+@color3: #3C0303;
+@color3Dark: #130000;
+
+@dropdownTextColor: #B6B6B6;
+@dropdownBackground: #383636;
+@dropdownBackgroundHover: #515151;
+
+@jumbotronBackground: #3C0303;
+@jumbotronText: #FFE9ED;
+@backgroundColor: #D8D8D8;
+@listItemBackgroundHover: #FCFCFC;
+@listItemBackground: rgb(236, 236, 236);
+
+@font-face {
+font-family: "Typewriter";
+src: url(/VintageOne.ttf) format("truetype");
+}
+p.customfont { 
+font-family: "Typewriter", Verdana, Tahoma;
+}
+
+body {
+/*background-image:url('http://horror-writers.net/blog/wp-content/uploads/2014/01/blood.png');*/
+background-color: @backgroundColor;
+margin-top: 80px;
+background-attachment: fixed;
+}
+
+.starter-template {
+
+text-align: center;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+display: block;    
+}
+
+
+.navbar-nav li a {
+font-size: 13px;
+color: @dropdownTextColor !important;
+}
+.navbar-nav ul.dropdown-menu {
+background-color: @dropdownBackground;
+margin-top: -1px;
+}
+.navbar-nav ul.dropdown-menu li{
+padding-bottom:2px;
+padding-top:2px;
+}
+.navbar-nav ul.dropdown-menu a{
+color: @dropdownTextColor;
+}
+.navbar-nav ul.dropdown-menu:hover a:hover{
+background-color: @dropdownBackgroundHover;
+}
+
+#sidebar-content .list-group .list-group-item h2{
+color: black;
+margin-top: 10px;
+}
+
+.affixed.affix{
+padding-left: 73px;
+}
+.jumbotron{
+background-color: @jumbotronBackground;
+padding-top: 15px;
+padding-bottom: 15px;
+border: 3px solid @jumbotronBackground;
+}
+.jumbotron p{
+font-size: 15px;
+font-family: Arial, sans-serif;
+color:@jumbotronText;
+}
+.jumbotron h1{
+font-size: 63px;
+font-family: "Typewriter";
+color: @jumbotronText;
+}
+li.list-group-item {
+background-color: @listItemBackground;
+margin: 3px 0px 3px 0px;
+}
+li.list-group-item:hover{
+background-color: @listItemBackgroundHover;
+}
+h2{
+	font-family: "Typewriter", Verdana, Tahoma;
+}
+li.list-group-item h2{
+color: black;
+}
+li.list-group-item a{
+color:grey;
+}
+li.list-group-item p{
+color:charcoal;
+}
+.btn-default {
+background-color: grey;
+color: lightgrey;
+}
+
+.buttonRed{
+background-color: @jumbotronBackground;
+color: @jumbotronText;
+}
+
+#articleBody {
+width: 100%;
+height: 600px;
+}
+
+#toolbar {
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left : 0px;
+width:100%;
+}
+.main-section-title{
+margin-top: 0px;
+}
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
+#articleLoadMoreButton{
+	min-width: 200px;
+}
+

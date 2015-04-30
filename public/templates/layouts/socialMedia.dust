@@ -1,0 +1,8 @@
+<ul class="list-group">
+	<li class="list-group-item" style="background-color:transparent" border="none"><h2 class="text-center">Follow Us!</h2></li>
+	<li class="list-group-item row" style="background-color:transparent">
+		<a href="#" class= "col-md-4 col-lg-4"><img src="/images/twitter.png" height="35"></img></a>
+		<a href="#" class= "col-md-4 col-lg-4"><img src="/images/facebook.png" height="35"></img></a>
+		<a href="#" class= "col-md-4 col-lg-4"><img src="/images/instagram.png" height="35"></img></a>
+	</li>
+</ul>

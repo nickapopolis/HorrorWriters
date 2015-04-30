@@ -1,0 +1,18 @@
+<!--https://github.com/xing/wysihtml5/wiki/Getting-Started-->
+
+<h2  class="main-section-title">New Article</h2>
+<form>
+  <input  id="articleTitle" type="text" placeholder="Title" class="form-control" style="width:50%">
+  <select id="articleCategory" class="form-control" style="width:50%">
+    <option disabled selected> -- Category -- </option>
+    <option value="interviews">Interviews</option>
+    <option  value="stories">Stories</option>
+    <option  value="guestArticles">Guest Articles</option>
+  </select>
+  {>"/templates/layouts/tools/richTextEditor.dust"/}
+  <input id="articleSubmitButton" type="button" class="btn btn-default pull-right buttonRed" value="Save">
+</input>
+</div>
+<textarea id="articleBody" placeholder="Enter text ..."></textarea>
+
+</form>

@@ -1,0 +1,7 @@
+<div class="articleBody"> 
+	<h2 class="main-section-title">{title}</h2>
+	<p><i>Posted by {author} on {dateCreated} in {category}.</i></p>
+	<br>
+	{body|s}
+</div>
+

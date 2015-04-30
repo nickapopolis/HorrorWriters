@@ -1,0 +1,5 @@
+<h2 class="main-section-title">{category}</h2>
+<ul id ="articleList" class="list-group">
+
+</ul>
+<button id="articleLoadMoreButton" class="btn btn-default buttonRed center-block" >Older</button>

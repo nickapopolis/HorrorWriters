@@ -1,0 +1,57 @@
+  <div id="toolbar" style="display: none;" class="btn-toolbar" >
+    <div class="btn-group" role="group" >
+      <a class="btn btn-default" data-wysihtml5-command="bold" title="CTRL+B">
+        <i class="fa fa-bold fa-lg"></i>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-command="italic" title="CTRL+I">
+        <i class="fa fa-italic fa-lg"></i>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-command="createLink">
+        <i class="fa fa-link fa-lg"></i>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-command="insertImage">
+        <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1"><b>H1</b></a> 
+      <a class="btn btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2"><b>H2</b></a> 
+      <a class="btn btn-default" data-wysihtml5-command="insertUnorderedList">
+        <i class="fa fa-list-ul fa-lg"></i>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-command="insertOrderedList">
+        <i class="fa fa-list-ol fa-lg"></i>
+      </a> 
+
+      <a class="btn btn-default" data-wysihtml5-command="undo">
+        <i class="fa fa-undo fa-lg"></i>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-command="redo">
+        <i class="fa fa-repeat fa-lg"></i>
+      </a> 
+      <a class="btn btn-default" data-wysihtml5-action="change_view">
+       <i class="fa fa-code fa-lg"></i>
+     </a>
+
+     <div data-wysihtml5-dialog="createLink" style="display: none;">
+      <label>
+        Link:
+        <input data-wysihtml5-dialog-field="href" value="http://">
+      </label>
+      <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+    </div>
+
+    <div data-wysihtml5-dialog="insertImage" style="display: none;">
+      <label>
+        Image:
+        <input data-wysihtml5-dialog-field="src" value="http://">
+      </label>
+      <label>
+        Align:
+        <select data-wysihtml5-dialog-field="className">
+          <option value="">default</option>
+          <option value="wysiwyg-float-left">left</option>
+          <option value="wysiwyg-float-right">right</option>
+        </select>
+      </label>
+      <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+    </div>
+  </div>

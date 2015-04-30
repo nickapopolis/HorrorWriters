@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Horror-Writers</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.css"/>
+	<link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+	<div class="container-fluid row">
+		{>"layouts/navbarTop"/}
+	</div>
+	
+	<div id="wrapper" class="container">
+	</div>
+	<div class="container">
+	</div>
+	<div id="affix-nav" class="container-fluid row">
+		<div class= "col-md-12 col-lg-3" data-offset-top="100">
+			<div class="affixed center-block">
+				<a href="#"><img src="http://horror-writers.net/blog/wp-content/uploads/2014/01/horrlogo-300x158.png"  class ="center-block"></img></a>
+			</div>
+		</div>
+		<div class ="col-lg-6 col-md-8"  id="main-content">
+		</div>
+		
+		<div class= "col-lg-2 col-md-4" id="sidebar-content">
+			{>"layouts/newestArticles"/}
+			{>"layouts/socialMedia"/}
+			{>"layouts/tools/twitterFeed"/}
+		</div>
+	</div>
+</body>
+<script data-main="/js/app" src="/components/requirejs/require.js"></script>
+</html>
+
+	<!--
+
+-->

@@ -1,0 +1,10 @@
+{#articles}
+<li class="list-group-item">
+    <h2 class="list-group-item-heading">{title}</h2>
+    <div class="divider"></div>
+    <p>Posted by {author} on {dateCreated} in {category}</p>
+    <div class="divider"></div>
+    {body|s}
+    <div><a href="#articles/{id}"><button id="articleItemButton" class="btn btn-default" >Read more</button></a></div>
+</li>
+{/articles}
